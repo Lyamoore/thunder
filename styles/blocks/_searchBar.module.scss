@@ -1,0 +1,43 @@
+.search {
+  position: relative;
+  background-color: #f5f5f58a;
+  border-radius: 15px;
+  width: 350px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 12px;
+
+  &__input {
+    padding: 0;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.2;
+    background-color: transparent;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    &_svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &__error {
+    position: absolute;
+    color: #e10505;
+    top: 100%;
+    font-size: 18px;
+    font-weight: 200;
+  }
+}

@@ -1,0 +1,26 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 30px 0;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu {
+    &_list {
+      display: flex;
+      column-gap: 30px;
+    }
+  }
+}
